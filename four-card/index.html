@@ -12,6 +12,13 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+
     <title>Frontend Mentor | Four card feature section</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -26,48 +33,56 @@
     </style>
   </head>
   <body>
-    <header>
-      <div class="light-header">
-        Reliable, efficient delivery
-      </div>
-      <div class="dark-header">
-        Powered by Technology
-      </div>
-      <p class="header-description">
-        Our Artificial Intelligence powered tools use millions of project data
-        points to ensure that your project is successful
-      </p>
-    </header>
+    <section class="container">
+      <header class="header">
+        <h1 class="light-header">Reliable, efficient delivery</h1>
 
-    <section>
-      <h3>Supervisor</h3>
-      <p>Monitors activity to identify project roadblocks</p>
+        <h1 class="dark-header">Powered by Technology</h1>
+
+        <p class="header-description">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </header>
+
+      <section class="cards">
+        <section class="card card1">
+          <h3 class="card-header">Supervisor</h3>
+          <p class="card-description">
+            Monitors activity to identify project roadblocks
+          </p>
+        </section>
+
+        <section class="card card2">
+          <h3 class="card-header">Team Builder</h3>
+          <p class="card-description">
+            Scans our talent network to create the optimal team for your project
+          </p>
+        </section>
+
+        <section class="card card3">
+          <h3 class="card-header">Karma</h3>
+          <p class="card-description">
+            Regularly evaluates our talent to ensure quality
+          </p>
+        </section>
+
+        <section class="card card4">
+          <h3 class="card-header">Calculator</h3>
+          <p class="card-description">
+            Uses data from past projects to provide better delivery estimates
+          </p>
+        </section>
+      </section>
+
+      <footer class="footer">
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">kishan</a>.
+        </p>
+      </footer>
     </section>
-
-    <section>
-      <h3>Team Builder</h3>
-      <p>
-        Scans our talent network to create the optimal team for your project
-      </p>
-    </section>
-
-    <section>
-      <h3>Karma</h3>
-      <p>Regularly evaluates our talent to ensure quality</p>
-    </section>
-
-    <section>
-      <h3>Calculator</h3>
-      <p>Uses data from past projects to provide better delivery estimates</p>
-    </section>
-
-    <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">kishan</a>.
-      </p>
-    </footer>
   </body>
 </html>

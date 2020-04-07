@@ -9,6 +9,7 @@ body {
   font-family: 'Poppins';
   height: 100vh;
   width: 100vw;
+  background: hsl(0, 0%, 98%);
 }
 
 .container {
@@ -55,8 +56,37 @@ display: grid;
 }
 
 .card {
-  height: 230px;
   width: 350px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 30px;
+  margin: 15px;
+  background: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.card1 {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.card2 {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.card3 {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.card4 {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.card-image {
+  width: 75px;
+  height: 75px;
+  align-self: flex-end;
 }
 
 .footer {

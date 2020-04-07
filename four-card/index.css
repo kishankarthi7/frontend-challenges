@@ -68,11 +68,11 @@ display: grid;
 }
 
 .card1 {
-  border-top: 5px solid hsl(0, 78%, 62%);
+  border-top: 5px solid hsl(180, 62%, 55%);
 }
 
 .card2 {
-  border-top: 5px solid hsl(180, 62%, 55%);
+  border-top: 5px solid hsl(0, 78%, 62%);
 }
 
 .card3 {
